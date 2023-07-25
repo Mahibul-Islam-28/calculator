@@ -22,6 +22,9 @@ const Index = () => {
         }
         catch(err) {
             setResult("Error");
+            const screenClear = setTimeout(() => {
+                clear();
+            }, 2500);
         }
     }
 
